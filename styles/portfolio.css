@@ -1,4 +1,8 @@
 /* header styles */
+button {
+    text-align: center;
+}
+
 .header {
     background: rgba(229, 84, 115, 0.10);
 
@@ -129,4 +133,113 @@
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+}
+
+.about-some-icons {
+    gap: 50px;
+    display: flex;
+    padding: 60px 10px;
+    width: 1300px;
+    height: 250px;
+    border-radius: 6px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-left: 300px;
+    padding-left: 400px;
+    padding-bottom: 20px;
+
+}
+
+.icons-title {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 0px;
+    padding-bottom: 150px;
+    padding-right: 10px;
+
+}
+
+.icon1 {
+    padding: 60px 10px;
+    margin-left: 20px;
+    width: 88px;
+    height: 88px;
+}
+
+.icon2 {
+    padding: 60px 10px;
+    width: 88px;
+    height: 88px;
+
+}
+
+.icon3 {
+    padding: 60px 10px;
+    width: 88px;
+    height: 88px;
+
+}
+
+.sign-up-section {
+    /* padding-bottom: 150px; */
+    padding: 150px;
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 180px;
+}
+
+.sign {
+    display: flex;
+    padding: 50px 50px 0px 150px;
+    align-items: center;
+}
+
+.sign-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text-primary {
+    color: #E55473;
+}
+
+.sign-description {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn-primary2 {
+    display: flex;
+    justify-content: center;
+    /* display: block; */
+    /* text-align: center; */
+    /* display: inline-flex; */
+    padding: 20px 43px;
+    /* align-items: flex-start; */
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    margin-left: 35%;
+}
+
+.pr-pic2 {
+    width: 450px;
+    height: 620px;
+    padding-left: 500px;
+
 }
